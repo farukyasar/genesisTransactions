@@ -191,7 +191,7 @@ mantleNode init <moniker-name> --chain-id mantle-1
 
 - Inside the file `$HOME/.mantleNode/config/config.toml`,
 
-  - Set seeds to `10de5165a61dd83c768781d438748c14e11f4397@65.2.55.250:26656`
+  - Set seeds to `10de5165a61dd83c768781d438748c14e11f4397@seed.assetmantle.one:26656`
 
 - Start the node
 

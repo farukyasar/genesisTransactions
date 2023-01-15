@@ -39,11 +39,11 @@ mantleNode version
 
 ### Generate keys
 
-`assetClient keys add <KEY_NAME>`
+`mantleNode keys add <KEY_NAME>`
 
 or
 
-`assetClient keys add <KEY_NAME> --recover` to regenerate keys with your [BIP39](https://github.com/bitcoin/bips/tree/master/bip-0039) mnemonic
+`mantleNode keys add <KEY_NAME> --recover` to regenerate keys with your [BIP39](https://github.com/bitcoin/bips/tree/master/bip-0039) mnemonic
 
 ## Validator setup
 
@@ -77,7 +77,7 @@ mantleNode start
 * Send a create-validator transaction
 
 ```shell
-assetClient tx staking create-validator \
+mantleNode tx staking create-validator \
 --from <KEY_NAME> \
 --amount XXXXXXXXumntl \
 --pubkey "$(mantleNode tendermint show-validator)" \

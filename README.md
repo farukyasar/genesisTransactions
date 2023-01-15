@@ -11,9 +11,13 @@ the steps required to run a node for all the versions of the AssetMantle chain.
 
 ## How to run a node?
 
-### Testnet
+### ~~test-mantle-1~~
 
-* [test-mantle-1](https://github.com/AssetMantle/genesisTransacations/tree/main/test-mantle-1#test-mantle-1)
+* ~~[test-mantle-1](https://github.com/AssetMantle/genesisTransacations/tree/main/test-mantle-1#test-mantle-1)~~
+
+### test-mantle-2
+
+* [test-mantle-2](https://github.com/AssetMantle/genesisTransacations/tree/main/test-mantle-1#test-mantle-1)
 
 ### Mainnet
 

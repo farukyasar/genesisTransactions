@@ -54,7 +54,7 @@ This document describes how to setup a mantle-1 chain node.
   ``` shell
   git clone https://github.com/AssetMantle/node.git
   cd node
-  git checkout tags/v0.3.0
+  git checkout tags/v0.3.1
   ```
 
 # Make binary
@@ -66,7 +66,7 @@ This document describes how to setup a mantle-1 chain node.
   ```shell
   mantleNode version
   ```
-  > NOTE: Plese make sure the output of this command is  HEAD-5b2b0dcb37b107b0e0c1eaf9e907aa9f1a1992d9
+  > NOTE: Plese make sure the output of this command is HEAD-3e8f688539951f9df2d166bcf2f422425f0f2cb3
 
 - Worried about typing? Below is a one-liner to install the mantleNode.
 
@@ -191,7 +191,7 @@ mantleNode init <moniker-name> --chain-id mantle-1
 
 - Inside the file `$HOME/.mantleNode/config/config.toml`,
 
-  - Set seeds to `10de5165a61dd83c768781d438748c14e11f4397@65.2.55.250:26656`
+  - Set seeds to `10de5165a61dd83c768781d438748c14e11f4397@seed.assetmantle.one:26656`
 
 - Start the node
 
